@@ -2,26 +2,23 @@
 <html>
 <head>
 <title>BRANDING</title>
-<style>
-body{
-  margin:0;
-  padding:0;
-  background:#ffffff;
-  font-family: Arial, sans-serif;
-}
+  <style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
 
-.project{
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
+  .img-card {
+    width: 200px;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
 
-.project img{
-  width: 100%;
-  height: auto;
-  margin-bottom: 30px;
-  border-radius: 6px;
-}
+  .img-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+  }
 </style>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -30,11 +27,13 @@ body{
 
 <h1>Poster Design</h1>
 
-<img src="HEADPHONE.jpg">
+  <div class="gallery">
+<img src="HEADPHONES.jpg">
 <img src="HEADPHONE PKG.jpg">
 <img src="mentos.jpg">
 <img src="mentos packaging.jpg">
-
+  </div>
+    
 <br><br>
 <a href="index.html">← Back Home</a>
 
