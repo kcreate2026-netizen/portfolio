@@ -2,6 +2,14 @@
 <html>
 <head>
 <title>logo concepts</title>
+<style>
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 40px;
+}
+</style>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -9,9 +17,21 @@
 
 <h1>Poster Design</h1>
 
-<img src="DOP/dop toys 2/dop tag/dop palette.jpg">
-<img src="toothbrush.1/TOOTHBRUSH 2/TOOTHBRUSH 3/toothbrush 4/toothbrush 5.jpg">
-<img src="SKATE 4/LOGO 2.1/LOGO 2/SKATE/SKATE 2.jpg">
+<img src="DOP.jpg">
+<img src="dop toys 2.jpg">
+<img src="dop tag.jpg">
+<img src="dop palette.jpg">
+<img src="toothbrush.1.jpg">
+<img src="TOOTHBRUSH 2.jpg">
+<img src="TOOTHBRUSH 3.jpg">
+<img src="toothbrush 4.jpg">
+<img src="toothbrush 5.jpg">
+<img src="SKATE 4.jpg">
+<img src="LOGO 2.1.jpg">
+<img src="LOGO 2.jpg">
+<img src="SKATE.jpg">
+<img src="SKATE 2.jpg">
+
 
 <br><br>
 <a href="index.html">← Back Home</a>
