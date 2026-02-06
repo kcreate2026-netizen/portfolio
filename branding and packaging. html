@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Branding and Packaging</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Poster Design</h1>
+
+<img src="branding1.jpg">
+<img src="branding2.jpg">
+<img src="branding3.jpg">
+
+<br><br>
+<a href="index.html">← Back Home</a>
+
+</body>
+</html>
