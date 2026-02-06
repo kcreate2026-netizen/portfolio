@@ -3,11 +3,12 @@
 <head>
 <title>logo concepts</title>
 <style>
-img{
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 40px;
+.logos img {
+  width: 180px;
+  padding: 20px;
+  margin: 20px;
+  background: #f5f5f5;
+  border-radius: 50%;
 }
 </style>
 <link rel="stylesheet" href="style.css">
@@ -17,6 +18,7 @@ img{
 
 <h1>Poster Design</h1>
 
+<div class="logos">
 <img src="DOP.jpg">
 <img src="dop toys 2.jpg">
 <img src="dop tag.jpg">
@@ -31,6 +33,7 @@ img{
 <img src="LOGO 2.jpg">
 <img src="SKATE.jpg">
 <img src="SKATE 2.jpg">
+</div>
 
 
 <br><br>
