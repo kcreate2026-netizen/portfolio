@@ -2,83 +2,72 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Krishna Dave — Portfolio</title>
+  <title>Krishna Dave</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
-
-  <!-- p5 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- HOME / PS5 EDITOR -->
+<!-- HOME EXPERIENCE -->
 <section class="home">
-  <div class="editor-bar">
-    <span>DESIGN MODE</span>
-    <span class="dot"></span>
-    <span>ONLINE</span>
-  </div>
+  <iframe
+    src="https://editor.p5js.org/kcreate2026/full/Au3MH4vON"
+    class="p5"
+    frameborder="0">
+  </iframe>
 
-  <h1>KRISHNA DAVE</h1>
-  <p class="tagline">created to create</p>
-
-  <div class="menu">
-    <button onclick="go('logos')">Logos</button>
-    <button onclick="go('branding')">Branding</button>
-    <button onclick="go('social')">Social</button>
-    <button onclick="go('posters')">Posters</button>
+  <div class="home-ui">
+    <h1>Krishna Dave</h1>
+    <p>created to create</p>
+    <span class="enter">scroll to enter</span>
   </div>
 </section>
 
-<!-- LOGOS -->
-<section class="work" id="logos">
-  <h2>Logo Concepts</h2>
-  <div class="grid">
+<!-- PORTFOLIO CANVAS -->
+<section class="canvas">
+
+  <!-- LOGO -->
+  <div class="piece left">
     <img src="assets/logo1.jpg">
+    <span>Logo concept — identity exploration</span>
+  </div>
+
+  <div class="piece right">
     <img src="assets/logo2.jpg">
-    <img src="assets/logo1.jpg">
+    <span>Symbol & type system</span>
   </div>
-</section>
 
-<!-- BRANDING -->
-<section class="work" id="branding">
-  <h2>Branding & Packaging</h2>
-  <div class="grid">
+  <!-- BRANDING -->
+  <div class="piece center large">
     <img src="assets/branding1.jpg">
+    <span>Branding & visual language</span>
+  </div>
+
+  <div class="piece left">
     <img src="assets/packaging1.jpg">
+    <span>Packaging design</span>
   </div>
-</section>
 
-<!-- SOCIAL -->
-<section class="work" id="social">
-  <h2>Social Media Creatives</h2>
-  <div class="grid">
+  <!-- SOCIAL -->
+  <div class="piece right">
     <img src="assets/social1.jpg">
-    <img src="assets/social1.jpg">
-    <img src="assets/social1.jpg">
+    <span>Social media creative</span>
   </div>
-</section>
 
-<!-- POSTERS -->
-<section class="work" id="posters">
-  <h2>Poster Visuals</h2>
-  <div class="grid posters">
+  <!-- POSTER -->
+  <div class="piece center tall">
     <img src="assets/poster1.jpg">
-    <img src="assets/poster1.jpg">
+    <span>Poster visual</span>
   </div>
+
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <p>📧 kcreate2026@gmail.com</p>
-  <p>© 2026 Krishna Dave</p>
+  <p>kcreate2026@gmail.com</p>
 </footer>
 
-<script src="sketch.js"></script>
 </body>
 </html>
