@@ -1,51 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Graphic Design Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Krishna Dave — Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
-<script src="p5.js"></script>
-<script src="sketch.js"></script>
+  <!-- p5.js (PS5 editor inspiration) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- HERO -->
-<section id="hero">
+<!-- PS5 EDITOR HOME -->
+<section class="home">
+  <div class="editor-bar">
+    <span>DESIGN MODE</span>
+    <span class="dot"></span>
+    <span>ONLINE</span>
+  </div>
+
   <h1>KRISHNA DAVE</h1>
-  <p>Graphic Designer</p>
-</section>
+  <p class="tagline">created to create</p>
 
-<!-- PROJECTS -->
-<section id="projects">
-  <h2>Projects</h2>
-
-  <div class="grid">
-
-    <a href="poster.html" class="card">Poster Design</a>
-    <a href="BRANDING.html" class="card">Branding</a>
-    <a href="socials.html" class="card">Social Media</a>
-    <a href="logo concepts.html" class="card">Packaging</a>
-
+  <div class="menu">
+    <button onclick="go('logos')">Logos</button>
+    <button onclick="go('branding')">Branding</button>
+    <button onclick="go('social')">Social</button>
+    <button onclick="go('posters')">Posters</button>
   </div>
 </section>
 
-<!-- ABOUT -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-  I am a graphic designer focused on creating clean and bold visual designs.
-  </p>
+<!-- LOGOS -->
+<section class="work" id="logos">
+  <h2>Logo Concepts</h2>
+  <div class="grid">
+    <img src="assets/logo1.jpg">
+    <img src="assets/logo1.jpg">
+    <img src="assets/logo1.jpg">
+  </div>
+</section>
+
+<!-- BRANDING -->
+<section class="work" id="branding">
+  <h2>Branding & Packaging</h2>
+  <div class="grid">
+    <img src="assets/branding1.jpg">
+    <img src="assets/packaging1.jpg">
+  </div>
+</section>
+
+<!-- SOCIAL -->
+<section class="work" id="social">
+  <h2>Social Media Creatives</h2>
+  <div class="grid">
+    <img src="assets/social1.jpg">
+    <img src="assets/social1.jpg">
+    <img src="assets/social1.jpg">
+  </div>
+</section>
+
+<!-- POSTERS -->
+<section class="work" id="posters">
+  <h2>Poster Visuals</h2>
+  <div class="grid posters">
+    <img src="assets/poster1.jpg">
+    <img src="assets/poster1.jpg">
+  </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: kcreate2026@gmail.com</p>
-</section>
+<footer>
+  <p>📧 kcreate2026@gmail.com</p>
+  <p>© 2026 Krishna Dave</p>
+</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
